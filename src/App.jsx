@@ -1,9 +1,4 @@
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Link,
-} from "react-router-dom";
+import { BrowserRouter,Routes,Route, Link,} from "react-router-dom";
 
 import Home from "./Pages/Home";
 import About from "./Pages/About";
@@ -24,7 +19,7 @@ function App() {
 
             <div className="flex gap-6 font-medium">
               <Link
-                to="/"
+                to="/home"
                 className="transition hover:text-yellow-300"
               >
                 Home
